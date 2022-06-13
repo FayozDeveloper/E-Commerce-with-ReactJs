@@ -43,9 +43,7 @@ function Header(props) {
                         {props.orders.length > 0 ? showOrders(props) : showNothing()}
                     </div>
                 )}
-                {/*{props.orders.map((e)=>(*/}
-                {/*    <Order key={e.id} item={e}/>*/}
-                {/*))}*/}
+             
             </div>
             <div className="presentation"></div>
         </header>
